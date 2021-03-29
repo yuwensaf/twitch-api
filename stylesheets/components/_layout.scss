@@ -34,6 +34,9 @@ body {
     margin-bottom: 24px;
     text-align: center;
   }
+  @include iphone6 {
+    font-size: 28px;
+  }
 }
 .games-list {
   display: flex;

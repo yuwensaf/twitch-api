@@ -112,6 +112,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .site-name {
+    font-size: 28px;
+  }
+}
+
 .games-list {
   display: -webkit-box;
   display: -ms-flexbox;
