@@ -1,6 +1,6 @@
 // breakpoints
 @mixin iphone5 {
-  @media (min-width: 320px) and(max-width: 374px) {
+  @media (max-width: 374px) {
     @content;
   }
 }
